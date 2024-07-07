@@ -23,7 +23,7 @@ model_params:
      temperature: 0.1
      block_expansion: 32
      max_features: 1024
-     scale_factor: 0.85
+     scale_factor: 0.5
      num_blocks: 5
   generator_params:
     block_expansion: 64
@@ -35,7 +35,7 @@ model_params:
       block_expansion: 64
       max_features: 1024
       num_blocks: 5
-      scale_factor: 0.85
+      scale_factor: 0.5
   discriminator_params:
     scales: [1]
     block_expansion: 32
